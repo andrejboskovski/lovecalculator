@@ -9,7 +9,8 @@ body{
     max-width: 100%;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    align-items: center; 
 }
 
 @media only screen and (max-width:900px) {
@@ -36,9 +37,10 @@ position: relative;
 
 @media only screen and (max-width:900px){
    .box{
-       border-radius: 40px;
+       border-radius: 60px;
         margin: 30px;
-        top: 35px;
+        top: 25px;
+        padding: 15px;
     }
 }
 
